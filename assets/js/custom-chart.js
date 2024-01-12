@@ -11,7 +11,7 @@ new Chart(ctx, {
     ],
     datasets: [{
         label: ['Funding Allocation'],
-        data: [180, 108, 36, 72],
+        data: [50, 20, 10, 20],
         borderWidth: 0,
         backgroundColor: [
         '#44A08D',
