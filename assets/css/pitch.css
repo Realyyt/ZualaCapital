@@ -14,7 +14,11 @@
 }
 
 textarea:focus, input:focus {
-    color: #ffff;
+    color: var(--tg-primary-color);
+}
+
+textarea:focus, select:focus {
+    color: var(--tg-primary-color);
 }
 
 select{
@@ -45,4 +49,21 @@ select{
  
 .subfield2{
     margin-left: 50px;
+}
+
+.submit{
+    background-color: var(--tg-primary-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+}
+.checkbox{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}
+.cs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
 }
