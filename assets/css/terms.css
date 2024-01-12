@@ -1,10 +1,9 @@
 .main-terms{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
 }
 .bg{
     background: url(elcarito-MHNjEBeLTgw-unsplash.jpg);
@@ -14,12 +13,11 @@
     background-size: cover;
     filter: blur(5px);
     z-index: -1;
-    opacity: 0.7;
     filter: brightness(75%);
 }
 .terms-box{
     max-width: 460px;
-    background-color: rgb(83, 83, 83,0.1);
+    background-color: black;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 20px;
@@ -59,7 +57,7 @@
     justify-content: center;
     padding-bottom: 50px;
 }
-.btn{
+.btnl{
     height: 50px;
     width: calc(50% - 6px);
     border: 0;
@@ -76,6 +74,6 @@
 .gray-btn{
     background-color: #282828;
 }
-.btn:hover{
+.btnl:hover{
     opacity: .6;
 }
