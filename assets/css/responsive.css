@@ -698,8 +698,13 @@
 .contact-form {
     padding: 50px 30px;
 }
-
-
+.navbar-wrap{
+    display: none;
 }
+}
+
+
+
+    
 
 

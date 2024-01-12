@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="assets/css/default.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/pitch.css">
     </head>
     <body>
 
@@ -52,15 +53,14 @@
                                     <div class="logo">
                                         <a href="index-2.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
-                                    <div class="navbar-wrap main-menu flex">
+                                    <div class="navbar-wrap main-menu  d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li class="active"><a href="#header" >Home</a></li>
-                                            <li><a href="#contribution" >Portfolio</li>
-                                            <li><a href="#DealFlowPartners" style="line-height: 1;"> Partners</a></li>
+                                            <li class="active"><a href="#header" class="section-link">Home</a></li>
+                                            <li><a href="#DealFlowPartners" style="line-height: 1;" class="section-link"> Partners</a></li>
                                             <li><a href="#Advisoryservices" class="section-link">Adivosry</a></li>
-                                            <li><a href="pitch.html" >Pitch</a></li>
-                                            <li ><a href="#chart">Strategy</a></li>
-                                            <li><a href="#form">Contact</a></li>
+                                            <li><a href="#pitch" class="section-link">Pitch</a></li>
+                                            <li ><a href="#chart"class="section-link">Strategy</a></li>
+                                            <li><a href="#form" class="section-link">Contact</a></li>
                                         </ul>
                                     </div>
                                     <div class="header-action">
@@ -540,7 +540,133 @@
                 </div>
             </section>
             <!-- team-area-end --> 
-
+            <!--Pitch Area-start-->
+            <section class = "container section-title text-center mb-50" id="pitch">
+                <div class="pitch title ">Pitch Your Project</div>
+                <div class="pitch">Get in touch with ZualaCapital team of analysts</div>
+                <form name = "form1" action="modified.php" method = "post" enctype = "multipart/form-data" >
+                    <div class="field" >
+                        <fieldset>
+                            <div class = "value">
+                                <span>First Name</span>
+                                <input type = "text" class="input" name = "fname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Email </span>
+                                <input type = "email" class="input" name = "mname" value = "" required />
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Company Name </span>
+                                <input type = "text" class="input" name = "lname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Category</span>
+                                <select type = "password" name = "pwd" value = "" required></select>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Investment in USD</span>
+                                <input type = "text"  class="input" name = "lname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Deal Structure</span>
+                                <select type = "password" name = "pwd" value = "" required></select>
+                            </div>
+                        </fieldset>
+                        <fieldset class="subfield">
+                            <div class = "value">
+                                <span>Last Name</span>
+                                <input type = "text" class="input" name = "fname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Phone Number</span>
+                                <input type = "number" class="input" name = "mname" value = "" required />
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Website Url </span>
+                                <input type = "text" class="input" name = "lname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value fileupload">
+                                <span>Pitch deck or White paper </span>
+                                <input type = "file" name = "lname" style="border-radius:6px; margin-top: 3px; " required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Current Valuation </span>
+                                <input type = "text"  class="input" name = "lname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Minimum ticket size (in USD)</span>
+                                <select type = "password" name = "pwd" value = "" required></select>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div class = "value">
+                        <span>Description</span>
+                        <input type = "text"  class="input" name = "lname" value = "" required/>
+                    </div>
+                    <br><br>
+                    <div class="field">
+                        <fieldset >
+                            <div class = "value">
+                                <span>Telegram</span>
+                                <input type = "text"  class="input" name = "lname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Time Zone</span>
+                                <select type = "text"  class="input" name = "lname" value = "" required></select>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Token Generation Event</span>
+                                <select type = "text"  class="input" name = "lname" value = "" required></select>
+                            </div>
+                        </fieldset>
+                        <fieldset class="subfield2">
+                            <div class = "value">
+                                <span>Twitter Username</span>
+                                <input type = "text"  class="input" name = "lname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Country/Region</span>
+                                <input type = "text"  class="input" name = "lname" value = "" required/>
+                            </div>
+                            <br><br>
+                            <div class = "value">
+                                <span>Funding Round</span>
+                                <select type = "text"  class="input" name = "lname" value = "" required></select>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div class = "value">
+                        <span>Linkedin Company Page </span>
+                        <input type = "text"  class="input" name = "lname" value = "" required/>
+                    </div>
+                    <br><br>
+                    <div class = "value">
+                        <span>Referral source </span>
+                        <select type = "text"  class="input" name = "lname" value = "" required></select>
+                    </div>
+                    <br><br>
+                    <div class = "value">
+                        <span>Token Info</span>
+                        <input type = "text"  class="input" name = "lname" value = "" required/>
+                    </div>
+                </form>
+            </section>
+            <!--Pitch Area-end-->
 
             <!-- document-area -->
             <section class="document-area" id="form">
