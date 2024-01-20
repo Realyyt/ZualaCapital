@@ -26,7 +26,7 @@
     margin-right: 45px;
 }
 .menu-area {
-    padding: 20px 0 20px;
+    padding:  0 20px;
 }
 .banner-content .title {
     font-size: 55px;
@@ -398,6 +398,10 @@
 .custom-container {
     max-width: 100%;
 }
+.logo{
+    height:80px;
+    width:80px;
+}
 .transparent-header {
 	top: 0;
 }
@@ -688,6 +692,10 @@
 }
 .document-wrap {
     padding: 50px 30px 40px;
+}
+.logo{
+    height:80px;
+    width:80px;
 }
 .comment-respond {
     padding: 40px 30px 45px;

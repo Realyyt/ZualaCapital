@@ -398,9 +398,10 @@ label {
     display: block;
     height: 105px;
 }
+/*for the top part of webpage begin*/
 .menu-area {
-    padding: 40px 0 20px;
 }
+/*for the top part of webpage end*/
 .menu-nav {
 	display: flex;
 	align-items: center;
@@ -1042,13 +1043,13 @@ label {
     border-right: 2px solid var(--tg-white);
     transform: rotate(45deg);
     margin: -10px 0 0 8px;
-    animation: animate 2s infinite;
+    animation: animate 0.5s infinite;
 }
 .banner-scroll-down a span:nth-child(2) {
-    animation-delay: -0.2s;
+    animation-delay: -0.1s;
 }
 .banner-scroll-down a span:nth-child(3) {
-    animation-delay: -0.4s;
+    animation-delay: -0.1s;
 }
 .banner-shape-wrap img {
     position: absolute;
@@ -1088,8 +1089,8 @@ label {
 .alltuchtopdown {
     -webkit-animation-name: alltuchtopdown;
     animation-name: alltuchtopdown;
-    -webkit-animation-duration: 6s;
-    animation-duration: 6s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
@@ -1109,8 +1110,8 @@ label {
 .leftToRight {
     -webkit-animation-name: leftToRight;
     animation-name: leftToRight;
-    -webkit-animation-duration: 8s;
-    animation-duration: 8s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
@@ -1193,8 +1194,8 @@ label {
 .rotateme {
   -webkit-animation-name: rotateme;
   animation-name: rotateme;
-  -webkit-animation-duration: 10s;
-  animation-duration: 10s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -1327,6 +1328,10 @@ label {
     margin-left:50px;
     height:100px;
     width: 350px;
+}
+.svgl4{
+    margin-left:50px;
+    height:80px;
 }
 /*=============================
 	08. Brand
@@ -1732,7 +1737,6 @@ label {
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, var(--tg-primary-color) 0%, var(--tg-green) 47.60%, var(--tg-black) 91.23%);
     z-index: -1;
 }
 .team-item {
@@ -1745,6 +1749,9 @@ label {
 .team-thumb img {
     mix-blend-mode: luminosity !important;
     display: inline-block !important;
+    background-color:#292A37 ;
+    height:200px;
+    border-radius: 10px;
 }
 .team-thumb .team-social {
     position: absolute;
@@ -2117,7 +2124,7 @@ label {
     background-size: 0% 1.5px, 0 1.5px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
-    transition: background-size 0.4s linear;
+    transition: background-size 1s linear;
 }
 .blog-masonry-content .title a:hover {
     color: var(--tg-white);
@@ -2165,7 +2172,7 @@ label {
 }
 .blog-post-wrap .read-more-btn a i {
     transform: rotate(-45deg);
-    transition: all 0.3s ease-out 0s;
+    transition: all 1s ease-out 0s;
 }
 .blog-post-wrap .read-more-btn a:hover {
     background: var(--tg-primary-color);
@@ -2291,7 +2298,7 @@ label {
     width: 0;
     height: 1px;
     background: #292A37;
-    transition: all 0.3s ease-out 0s;
+    transition: all 1s ease-out 0s;
 }
 .sidebar-cat-list .list-wrap li a:hover::before {
     width: 100%;

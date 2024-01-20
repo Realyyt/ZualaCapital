@@ -5,6 +5,7 @@
     font-size:large;
     font-weight: 500;
     margin-top: 30px;
+    margin-right: 20px;
 }
 
 .input{
@@ -14,7 +15,11 @@
 }
 
 textarea:focus, input:focus {
-    color: #ffff;
+    color: var(--tg-primary-color);
+}
+
+textarea:focus, select:focus {
+    color: var(--tg-primary-color);
 }
 
 select{
@@ -40,9 +45,29 @@ select{
 }
 
 .subfield{
-    margin-left: 50px;
+    margin-left: 30px;
+    
+    margin-right: 20px;
 }
  
 .subfield2{
-    margin-left: 50px;
+    margin-left: 30px;
+    
+    margin-right: 20px;
+}
+
+.submit{
+    background-color: var(--tg-primary-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+}
+.checkbox{
+    display: flex;
+    justify-content: start;
+}
+.cs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
 }
