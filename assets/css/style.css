@@ -398,9 +398,10 @@ label {
     display: block;
     height: 105px;
 }
+/*for the top part of webpage begin*/
 .menu-area {
-    padding: 40px 0 20px;
 }
+/*for the top part of webpage end*/
 .menu-nav {
 	display: flex;
 	align-items: center;
@@ -1736,7 +1737,6 @@ label {
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, var(--tg-primary-color) 0%, var(--tg-green) 47.60%, var(--tg-black) 91.23%);
     z-index: -1;
 }
 .team-item {
@@ -1749,6 +1749,9 @@ label {
 .team-thumb img {
     mix-blend-mode: luminosity !important;
     display: inline-block !important;
+    background-color:#292A37 ;
+    height:200px;
+    border-radius: 10px;
 }
 .team-thumb .team-social {
     position: absolute;
@@ -2121,7 +2124,7 @@ label {
     background-size: 0% 1.5px, 0 1.5px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
-    transition: background-size 0.4s linear;
+    transition: background-size 1s linear;
 }
 .blog-masonry-content .title a:hover {
     color: var(--tg-white);
@@ -2169,7 +2172,7 @@ label {
 }
 .blog-post-wrap .read-more-btn a i {
     transform: rotate(-45deg);
-    transition: all 0.3s ease-out 0s;
+    transition: all 1s ease-out 0s;
 }
 .blog-post-wrap .read-more-btn a:hover {
     background: var(--tg-primary-color);
@@ -2295,7 +2298,7 @@ label {
     width: 0;
     height: 1px;
     background: #292A37;
-    transition: all 0.3s ease-out 0s;
+    transition: all 1s ease-out 0s;
 }
 .sidebar-cat-list .list-wrap li a:hover::before {
     width: 100%;
