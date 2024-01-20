@@ -1751,7 +1751,7 @@ label {
     display: inline-block !important;
     background-color:#292A37 ;
     height:200px;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 .team-thumb .team-social {
     position: absolute;
