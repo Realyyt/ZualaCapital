@@ -1742,14 +1742,20 @@ label {
 .team-item {
     text-align: center;
 }
+
 .team-thumb {
     position: relative;
     margin-bottom: 15px;
+    display:flex;
+    flex-direction: wrap;
+}
+
+.team-position{
+    color: initial;
 }
 .team-thumb img {
     mix-blend-mode: luminosity !important;
     display: inline-block !important;
-    background-color:#292A37 ;
     height:200px;
     border-radius: 50%;
 }
