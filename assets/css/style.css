@@ -1548,10 +1548,13 @@ label {
 .chart-wrap {
     margin-left: 30px;
 }
-.chart-wrap .chart {
+.chart-true {
     width: 340px;
     height: 340px;
-    margin: 0 0 50px 60px;
+    margin: 0 0 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .chart-tab .nav-tabs {
     border-bottom: none;
@@ -1746,13 +1749,8 @@ label {
 .team-thumb {
     position: relative;
     margin-bottom: 15px;
-    display:flex;
-    flex-direction: wrap;
 }
 
-.team-position{
-    color: initial;
-}
 .team-thumb img {
     mix-blend-mode: luminosity !important;
     display: inline-block !important;
