@@ -1757,6 +1757,14 @@ label {
     height:200px;
     border-radius: 50%;
 }
+
+.team-contact img {
+    mix-blend-mode: luminosity !important;
+    display: inline-block !important;
+    height:200px;
+    border-radius: 50%;
+    margin-top:50px;
+}
 .team-thumb .team-social {
     position: absolute;
     left: 50%;
@@ -1772,6 +1780,22 @@ label {
     font-size: 15px;
 }
 .team-thumb .team-social:hover {
+    background: var(--tg-primary-color);
+    color: var(--tg-white);
+}
+
+.team-contact .team-social {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    bottom: 30px;
+    width: 32px;
+    height: 32px;
+    background: var(--tg-white);
+    border-radius: 30%;
+    font-size: 15px;
+}
+.team-contact .team-social:hover {
     background: var(--tg-primary-color);
     color: var(--tg-white);
 }
