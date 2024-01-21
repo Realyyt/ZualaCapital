@@ -1547,7 +1547,13 @@ label {
 }
 .chart-wrap {
     margin-left: 30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
 }
+
+
 .chart-true {
     width: 340px;
     height: 340px;
